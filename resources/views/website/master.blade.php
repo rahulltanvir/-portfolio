@@ -1,4 +1,4 @@
-```blade
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,8 +36,7 @@
           rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet"
-          href="{{ asset('assets/css/style.css') }}">
+          <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
     @stack('styles')
 
@@ -73,4 +72,3 @@
 </body>
 
 </html>
-```
