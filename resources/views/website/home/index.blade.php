@@ -1438,7 +1438,1171 @@ SERVICES SECTION
 </section>
 
 
+{{-- ================================
+PROJECTS SECTION
+================================= --}}
+
+<section class="projects-section" id="projects">
+
+    <div class="container">
+
+        {{-- Section Heading --}}
+        <div class="section-heading">
+
+            <span class="section-label">
+                <span></span>
+                MY PROJECTS
+            </span>
+
+            <h2>
+                Things I've
+                <span class="gradient-text">Built.</span>
+            </h2>
+
+            <p>
+                A selection of web applications, eCommerce platforms
+                and professional websites I've worked on using modern
+                technologies.
+            </p>
+            {{-- Project Filter --}}
+
+<div class="project-filters">
+
+    <button type="button"
+            class="project-filter active"
+            data-filter="all">
+        All
+    </button>
+
+    <button type="button"
+            class="project-filter"
+            data-filter="laravel">
+        Laravel
+    </button>
+
+    <button type="button"
+            class="project-filter"
+            data-filter="wordpress">
+        WordPress
+    </button>
+
+    <button type="button"
+            class="project-filter"
+            data-filter="ecommerce">
+        eCommerce
+    </button>
+
+</div>
+
+        </div>
+
+
+        {{-- Projects Grid --}}
+        <div class="row g-4">
+
+
+            {{-- ================================
+            PROJECT 01
+            ================================= --}}
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="project-card"
+     data-category="ecommerce laravel">
+
+                    <div class="project-image">
+
+                        {{-- Project Image --}}
+                        <img
+                            src="{{ asset('website/assets/images/projects/mycommerce.jpg') }}"
+                            alt="MyCommerce Laravel eCommerce">
+
+                        <div class="project-overlay">
+
+                            <a href="#" class="project-view-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                        <span class="project-status">
+                            Laravel
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            ECOMMERCE PLATFORM
+                        </span>
+
+                        <h3>
+                            MyCommerce
+                        </h3>
+
+                        <p>
+                            A complete Laravel-based eCommerce platform
+                            with product management, cart, checkout,
+                            payment and order management.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+
+                        </div>
+
+
+                        <div class="project-footer">
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="#" class="project-github">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            {{-- ================================
+            PROJECT 02
+            ================================= --}}
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="project-card"
+     data-category="wordpress">
+
+                    <div class="project-image">
+
+                        <img
+                            src="{{ asset('website/assets/images/projects/wordpress.jpg') }}"
+                            alt="WordPress Website">
+
+                        <div class="project-overlay">
+
+                            <a href="#" class="project-view-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                        <span class="project-status">
+                            WordPress
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            BUSINESS WEBSITE
+                        </span>
+
+                        <h3>
+                            Business Website
+                        </h3>
+
+                        <p>
+                            A modern and responsive business website
+                            developed using WordPress and Elementor
+                            with a clean professional interface.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>WordPress</span>
+                            <span>Elementor</span>
+                            <span>PHP</span>
+                            <span>CSS</span>
+
+                        </div>
+
+
+                        <div class="project-footer">
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="#" class="project-github">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            {{-- ================================
+            PROJECT 03
+            ================================= --}}
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="project-card featured-project"
+     data-category="ecommerce laravel">
+
+                    <div class="featured-project-label">
+                        FEATURED
+                    </div>
+
+                    <div class="project-image">
+
+                        <img
+                            src="{{ asset('website/assets/images/projects/ecommerce.jpg') }}"
+                            alt="Laravel eCommerce Project">
+
+                        <div class="project-overlay">
+
+                            <a href="#" class="project-view-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                        <span class="project-status">
+                            eCommerce
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            ONLINE STORE
+                        </span>
+
+                        <h3>
+                            Laravel eCommerce
+                        </h3>
+
+                        <p>
+                            A powerful online store with product,
+                            category, cart, checkout, payment and
+                            complete order management system.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+
+                        <div class="project-footer">
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="#" class="project-github">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            {{-- ================================
+            PROJECT 04
+            ================================= --}}
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="project-card"
+     data-category="laravel">
+
+                    <div class="project-image">
+
+                        <img
+                            src="{{ asset('website/assets/images/projects/admin-dashboard.jpg') }}"
+                            alt="Admin Dashboard">
+
+                        <div class="project-overlay">
+
+                            <a href="#" class="project-view-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                        <span class="project-status">
+                            Laravel
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            ADMIN SYSTEM
+                        </span>
+
+                        <h3>
+                            Admin Dashboard
+                        </h3>
+
+                        <p>
+                            A modern admin dashboard for managing
+                            products, categories, customers, orders
+                            and website content.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+
+                        </div>
+
+
+                        <div class="project-footer">
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="#" class="project-github">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            {{-- ================================
+            PROJECT 05
+            ================================= --}}
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="project-card"
+     data-category="laravel">
+
+                    <div class="project-image">
+
+                        <img
+                            src="{{ asset('website/assets/images/projects/portfolio.jpg') }}"
+                            alt="Portfolio Website">
+
+                        <div class="project-overlay">
+
+                            <a href="#" class="project-view-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                        <span class="project-status">
+                            Portfolio
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            PERSONAL WEBSITE
+                        </span>
+
+                        <h3>
+                            Developer Portfolio
+                        </h3>
+
+                        <p>
+                            A modern developer portfolio website
+                            showcasing skills, services, projects
+                            and professional experience.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Laravel</span>
+                            <span>Blade</span>
+                            <span>Bootstrap</span>
+                            <span>CSS</span>
+
+                        </div>
+
+
+                        <div class="project-footer">
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="#" class="project-github">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            {{-- ================================
+            PROJECT 06
+            ================================= --}}
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="project-card"
+     data-category="laravel">
+
+                    <div class="project-image">
+
+                        <img
+                            src="{{ asset('website/assets/images/projects/web-app.jpg') }}"
+                            alt="Custom Web Application">
+
+                        <div class="project-overlay">
+
+                            <a href="#" class="project-view-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                        <span class="project-status">
+                            Web App
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <span class="project-category">
+                            CUSTOM APPLICATION
+                        </span>
+
+                        <h3>
+                            Custom Web Application
+                        </h3>
+
+                        <p>
+                            A database-driven web application designed
+                            with authentication, admin management and
+                            dynamic content features.
+                        </p>
+
+
+                        <div class="project-tech">
+
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+
+                        <div class="project-footer">
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="#" class="project-github">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+{{-- ================================
+EXPERIENCE / JOURNEY SECTION
+================================= --}}
+
+<section class="experience-section" id="experience">
+
+    <div class="container">
+
+        {{-- Section Heading --}}
+        <div class="section-heading">
+
+            <span class="section-label">
+                <span></span>
+                MY JOURNEY
+            </span>
+
+            <h2>
+                My Development
+                <span class="gradient-text">Journey.</span>
+            </h2>
+
+            <p>
+                A continuous journey of learning, building and
+                improving modern web solutions.
+            </p>
+
+        </div>
+
+
+        {{-- Timeline --}}
+        <div class="experience-timeline">
+
+            {{-- 01 --}}
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">
+                        2023
+                    </span>
+
+                    <h3>
+                        Started Web Development
+                    </h3>
+
+                    <p>
+                        Started building websites and learning
+                        modern web development fundamentals,
+                        PHP, HTML, CSS and JavaScript.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            {{-- 02 --}}
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-brands fa-php"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">
+                        2024
+                    </span>
+
+                    <h3>
+                        Laravel & PHP Development
+                    </h3>
+
+                    <p>
+                        Focused on Laravel and PHP development,
+                        database-driven applications,
+                        authentication and admin systems.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            {{-- 03 --}}
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">
+                        2025
+                    </span>
+
+                    <h3>
+                        eCommerce & WordPress
+                    </h3>
+
+                    <p>
+                        Started developing complete eCommerce
+                        platforms, WordPress websites and
+                        Elementor-based business websites.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            {{-- 04 --}}
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-year">
+                        2026
+                    </span>
+
+                    <h3>
+                        Building Professional Solutions
+                    </h3>
+
+                    <p>
+                        Building scalable Laravel applications,
+                        eCommerce systems and professional web
+                        solutions for businesses and clients.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{{-- ================================
+TESTIMONIALS SECTION
+================================= --}}
+
+<section class="testimonials-section" id="testimonials">
+
+    <div class="container">
+
+        {{-- Section Heading --}}
+        <div class="section-heading">
+
+            <span class="section-label">
+                <span></span>
+                CLIENT FEEDBACK
+            </span>
+
+            <h2>
+                What People
+                <span class="gradient-text">Say.</span>
+            </h2>
+
+            <p>
+                Feedback and experiences from people I've worked
+                with on different web development projects.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            {{-- Testimonial 01 --}}
+            <div class="col-lg-4">
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-top">
+
+                        <div class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+
+                    </div>
+
+
+                    <p class="testimonial-text">
+                        Great communication and clean development work.
+                        The website was delivered with a professional
+                        design and smooth functionality.
+                    </p>
+
+
+                    <div class="testimonial-author">
+
+                        <div class="testimonial-avatar">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div>
+                            <h5>Client Name</h5>
+                            <span>Business Owner</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            {{-- Testimonial 02 --}}
+            <div class="col-lg-4">
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-top">
+
+                        <div class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+
+                    </div>
+
+
+                    <p class="testimonial-text">
+                        Very good experience working together.
+                        The Laravel based system was organized,
+                        responsive and easy to manage.
+                    </p>
+
+
+                    <div class="testimonial-author">
+
+                        <div class="testimonial-avatar">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div>
+                            <h5>Client Name</h5>
+                            <span>Project Client</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            {{-- Testimonial 03 --}}
+            <div class="col-lg-4">
+
+                <div class="testimonial-card">
+
+                    <div class="testimonial-top">
+
+                        <div class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+
+                    </div>
+
+
+                    <p class="testimonial-text">
+                        Professional work with attention to detail.
+                        The overall website looks modern and performs
+                        very well across devices.
+                    </p>
+
+
+                    <div class="testimonial-author">
+
+                        <div class="testimonial-avatar">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div>
+                            <h5>Client Name</h5>
+                            <span>Website Client</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+{{-- ================================
+CONTACT SECTION
+================================= --}}
+
+<section class="contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                <span></span>
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                Let's Build Something
+                <span class="gradient-text">Great.</span>
+            </h2>
+
+            <p>
+                Have a project, business idea or website requirement?
+                Let's discuss your project and turn your idea into reality.
+            </p>
+
+        </div>
+
+
+        <div class="row g-5 align-items-stretch">
+
+
+            {{-- Contact Information --}}
+            <div class="col-lg-5">
+
+                <div class="contact-info-card">
+
+                    <span class="contact-eyebrow">
+                        CONTACT ME
+                    </span>
+
+                    <h3>
+                        Let's talk about
+                        <span class="gradient-text">
+                            your project.
+                        </span>
+                    </h3>
+
+                    <p>
+                        Whether you need a Laravel application,
+                        WordPress website or complete eCommerce
+                        solution, feel free to get in touch.
+                    </p>
+
+
+                    {{-- Email --}}
+                    <div class="contact-info-item">
+
+                        <div class="contact-info-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <a href="mailto:your@email.com">
+                                your@email.com
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    {{-- Location --}}
+                    <div class="contact-info-item">
+
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>Bangladesh</strong>
+                        </div>
+
+                    </div>
+
+
+                    {{-- Availability --}}
+                    <div class="contact-info-item">
+
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+
+                        <div>
+                            <span>Availability</span>
+                            <strong>Available for Freelance Work</strong>
+                        </div>
+
+                    </div>
+
+
+                    {{-- Social --}}
+                    <div class="contact-social">
+
+                        <span>Connect with me</span>
+
+                        <div>
+
+                            <a href="#" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="#" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            {{-- Contact Form --}}
+            <div class="col-lg-7">
+
+                <div class="contact-form-card">
+
+                    <form action="#" method="POST">
+
+                        @csrf
+
+                        <div class="row g-4">
+
+                            {{-- Name --}}
+                            <div class="col-md-6">
+
+                                <label>
+                                    Your Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    name="name"
+                                    class="form-control"
+                                    placeholder="Enter your name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            {{-- Email --}}
+                            <div class="col-md-6">
+
+                                <label>
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-control"
+                                    placeholder="Enter your email"
+                                    required
+                                >
+
+                            </div>
+
+
+                            {{-- Subject --}}
+                            <div class="col-12">
+
+                                <label>
+                                    Subject
+                                </label>
+
+                                <input
+                                    type="text"
+                                    name="subject"
+                                    class="form-control"
+                                    placeholder="What is your project about?"
+                                    required
+                                >
+
+                            </div>
+
+
+                            {{-- Message --}}
+                            <div class="col-12">
+
+                                <label>
+                                    Message
+                                </label>
+
+                                <textarea
+                                    name="message"
+                                    rows="6"
+                                    class="form-control"
+                                    placeholder="Tell me about your project..."
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            {{-- Submit --}}
+                            <div class="col-12">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary-custom contact-submit"
+                                >
+
+                                    Send Message
+
+                                    <i class="fa-solid fa-paper-plane ms-2"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
 
 
 @endsection
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    const filters = document.querySelectorAll('.project-filter');
+    const projects = document.querySelectorAll('.project-card');
+
+    filters.forEach(filter => {
+
+        filter.addEventListener('click', function () {
+
+            // Remove active class
+            filters.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Add active class
+            this.classList.add('active');
+
+            const selectedFilter = this.dataset.filter;
+
+            projects.forEach(project => {
+
+                const categories = project.dataset.category || '';
+
+                if (
+                    selectedFilter === 'all' ||
+                    categories.includes(selectedFilter)
+                ) {
+
+                    project.closest('[class*="col-"]')
+                        ?.classList.remove('project-hidden');
+
+                } else {
+
+                    project.closest('[class*="col-"]')
+                        ?.classList.add('project-hidden');
+
+                }
+
+            });
+
+        });
+
+    });
+
+});
+
+</script>
+
+
 
