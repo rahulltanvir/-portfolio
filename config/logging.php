@@ -57,6 +57,14 @@ return [
             'channels' => explode(',', (string) env('LOG_STACK', 'single')),
             'ignore_exceptions' => false,
         ],
+        'stderr' => [
+        'driver' => 'monolog',
+        'handler' => \Monolog\Handler\StreamHandler::class,
+        'with' => [
+            'stream' => 'php://stderr',
+        ],
+        'level' => env('LOG_LEVEL', 'debug'),
+    ],
 
         'single' => [
             'driver' => 'single',
