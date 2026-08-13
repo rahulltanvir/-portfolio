@@ -4,6 +4,12 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
+echo '<pre>';
+echo 'PHP VERSION: ' . PHP_VERSION . PHP_EOL;
+echo 'PHP SAPI: ' . PHP_SAPI . PHP_EOL;
+echo 'PHP OS: ' . PHP_OS . PHP_EOL;
+echo '</pre>';
+
 try {
     require __DIR__ . '/../vendor/autoload.php';
 
