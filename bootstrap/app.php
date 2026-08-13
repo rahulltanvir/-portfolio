@@ -21,26 +21,33 @@ $app = Application::configure(basePath: dirname(__DIR__))
     })
     ->create();
 
-if (isset($_SERVER['VERCEL'])) {
-    $tmp = '/tmp/laravel';
+/*
+|--------------------------------------------------------------------------
+| Vercel writable storage
+|--------------------------------------------------------------------------
+*/
 
-    if (! is_dir($tmp)) {
-        mkdir($tmp, 0777, true);
+if (getenv('VERCEL') || getenv('VERCEL_ENV')) {
+
+    $storage = '/tmp/laravel';
+
+    $directories = [
+        $storage,
+        $storage . '/framework',
+        $storage . '/framework/views',
+        $storage . '/framework/cache',
+        $storage . '/framework/sessions',
+        $storage . '/framework/testing',
+        $storage . '/logs',
+    ];
+
+    foreach ($directories as $directory) {
+        if (! is_dir($directory)) {
+            mkdir($directory, 0777, true);
+        }
     }
 
-    if (! is_dir($tmp.'/views')) {
-        mkdir($tmp.'/views', 0777, true);
-    }
-
-    if (! is_dir($tmp.'/cache')) {
-        mkdir($tmp.'/cache', 0777, true);
-    }
-
-    if (! is_dir($tmp.'/sessions')) {
-        mkdir($tmp.'/sessions', 0777, true);
-    }
-
-    $app->useStoragePath($tmp);
+    $app->useStoragePath($storage);
 }
 
 return $app;

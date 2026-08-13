@@ -5,6 +5,7 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 try {
+
     require __DIR__ . '/../vendor/autoload.php';
 
     $app = require_once __DIR__ . '/../bootstrap/app.php';
@@ -12,7 +13,9 @@ try {
     $app->handleRequest(
         Illuminate\Http\Request::capture()
     );
+
 } catch (\Throwable $e) {
+
     http_response_code(500);
 
     echo '<pre>';
