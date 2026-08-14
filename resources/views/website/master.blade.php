@@ -36,7 +36,11 @@
           rel="stylesheet">
 
     <!-- Custom CSS -->
-          <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+          {{-- <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"> --}}
+          <link rel="stylesheet"
+      href="{{ app()->environment('production')
+            ? 'https://' . request()->getHost() . '/assets/css/style.css'
+            : asset('assets/css/style.css') }}">
 
     @stack('styles')
 
