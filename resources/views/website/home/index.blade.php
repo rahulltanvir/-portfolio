@@ -1514,12 +1514,12 @@ PROJECTS SECTION
 
                         {{-- Project Image --}}
                         <img
-                            src="{{ asset('website/assets/images/projects/mycommerce.jpg') }}"
+                            src="{{ asset('assets/images/r1.png') }}"
                             alt="MyCommerce Laravel eCommerce">
 
                         <div class="project-overlay">
 
-                            <a href="#" class="project-view-btn">
+                            <a href="https://wahzia-commerce.vercel.app/" class="project-view-btn">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
 
@@ -1752,7 +1752,7 @@ PROJECTS SECTION
                     <div class="project-image">
 
                         <img
-                            src="{{ asset('website/assets/images/projects/admin-dashboard.jpg') }}"
+                            src="{{ asset('assets/images/r2.png') }}"
                             alt="Admin Dashboard">
 
                         <div class="project-overlay">
@@ -1830,12 +1830,12 @@ PROJECTS SECTION
                     <div class="project-image">
 
                         <img
-                            src="{{ asset('website/assets/images/projects/portfolio.jpg') }}"
+                            src="{{ asset('assets/images/portfolio.png') }}"
                             alt="Portfolio Website">
 
                         <div class="project-overlay">
 
-                            <a href="#" class="project-view-btn">
+                            <a href="https://tanvirrahman-portfolio.vercel.app/" class="project-view-btn">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
 
