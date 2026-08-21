@@ -2410,11 +2410,11 @@ CONTACT SECTION
 
                         <div>
 
-                            <a href="#" aria-label="GitHub">
+                            <a href="https://github.com/rahulltanvir" aria-label="GitHub">
                                 <i class="fa-brands fa-github"></i>
                             </a>
 
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/tanvir-rahman-803121271/" aria-label="LinkedIn">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
 
