@@ -37,7 +37,7 @@
 
     <!-- Custom CSS -->
           {{-- <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"> --}}
-          <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+          <link rel="stylesheet" href="/assets/css/style.css">
     @stack('styles')
 
 </head>
