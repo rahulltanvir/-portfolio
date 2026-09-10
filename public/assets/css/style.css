@@ -4230,3 +4230,18 @@ color: #fff;
 
     border-radius: 50%;
 }
+@media (max-width: 768px) {
+    .hero-code-photo {
+        width: 115px;
+        height: 115px;
+        right: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-code-photo {
+        width: 95px;
+        height: 95px;
+        right: 8px;
+    }
+}
