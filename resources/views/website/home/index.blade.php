@@ -1592,7 +1592,7 @@ PROJECTS SECTION
                     <div class="project-image">
 
                         <img
-                            src="{{ asset('website/assets/images/projects/wordpress.jpg') }}"
+                            src="{{ asset('assets/images/wp.png') }}"
                             alt="WordPress Website">
 
                         <div class="project-overlay">
@@ -1674,7 +1674,7 @@ PROJECTS SECTION
                     <div class="project-image">
 
                         <img
-                            src="{{ asset('website/assets/images/projects/ecommerce.jpg') }}"
+                            src="{{ asset('assets/images/r1.png') }}"
                             alt="Laravel eCommerce Project">
 
                         <div class="project-overlay">
@@ -1908,7 +1908,7 @@ PROJECTS SECTION
                     <div class="project-image">
 
                         <img
-                            src="{{ asset('website/assets/images/projects/web-app.jpg') }}"
+                            src="{{ asset('assets/images/r2.png') }}"
                             alt="Custom Web Application">
 
                         <div class="project-overlay">
