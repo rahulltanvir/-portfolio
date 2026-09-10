@@ -1,9 +1,9 @@
-
 @extends('website.master')
 
 @section('title', 'Md. Tanvir Rahman | Laravel & WordPress Developer')
 
-@section('meta_description', 'Md. Tanvir Rahman is a Laravel, PHP, WordPress and eCommerce Developer building modern and professional web solutions.')
+@section('meta_description', 'Md. Tanvir Rahman is a Laravel, PHP, WordPress and eCommerce Developer building modern and
+    professional web solutions.')
 
 @section('content')
 
@@ -90,8 +90,7 @@
                         {{-- Buttons --}}
                         <div class="hero-buttons">
 
-                            <a href="#projects"
-                               class="btn btn-primary-custom">
+                            <a href="#projects" class="btn btn-primary-custom">
 
                                 View My Work
 
@@ -100,8 +99,7 @@
                             </a>
 
 
-                            <a href="#contact"
-                               class="btn btn-outline-custom">
+                            <a href="#contact" class="btn btn-outline-custom">
 
                                 <i class="fa-regular fa-paper-plane me-2"></i>
 
@@ -465,159 +463,604 @@
     </section>
     {{-- ================================ ABOUT SECTION================================= --}}
 
-<section class="about-section" id="about">
+    <section class="about-section" id="about">
 
-<div class="container">
+        <div class="container">
 
-    {{-- Section Heading --}}
-    <div class="section-heading">
+            {{-- Section Heading --}}
+            <div class="section-heading">
 
-        <span class="section-label">
-            <span></span>
-            ABOUT ME
-        </span>
+                <span class="section-label">
+                    <span></span>
+                    ABOUT ME
+                </span>
 
-        <h2>
-            I Build Digital
-            <span class="gradient-text">Experiences.</span>
-        </h2>
+                <h2>
+                    I Build Digital
+                    <span class="gradient-text">Experiences.</span>
+                </h2>
 
-        <p>
-            Turning ideas into modern, scalable and meaningful
-            digital products through clean code and thoughtful design.
-        </p>
+                <p>
+                    Turning ideas into modern, scalable and meaningful
+                    digital products through clean code and thoughtful design.
+                </p>
 
-    </div>
-
-
-    <div class="row align-items-center g-5">
+            </div>
 
 
-        {{-- ================================
+            <div class="row align-items-center g-5">
+
+
+                {{-- ================================
             LEFT — DEVELOPER CARD
         ================================= --}}
 
-        <div class="col-lg-5">
+                <div class="col-lg-5">
 
-            <div class="developer-profile-card">
+                    <div class="developer-profile-card">
 
-                {{-- Card Header --}}
-                <div class="profile-card-header">
+                        {{-- Card Header --}}
+                        <div class="profile-card-header">
 
-                    <div class="profile-dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                            <div class="profile-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>
+                                developer.php
+                            </span>
+
+                        </div>
+
+
+                        {{-- Code --}}
+                        <div class="profile-code">
+
+                            <div>
+                                <span class="code-purple">class</span>
+                                <span class="code-blue">Developer</span>
+                                <span class="code-white">{</span>
+                            </div>
+
+                            <br>
+
+                            <div class="code-line">
+
+                                <span class="code-purple">public</span>
+
+                                <span class="code-blue">
+                                    $name
+                                </span>
+
+                                <span class="code-white">
+                                    =
+                                </span>
+
+                                <span class="code-green">
+                                    "Tanvir Rahman";
+                                </span>
+
+                            </div>
+
+
+                            <div class="code-line">
+
+                                <span class="code-purple">public</span>
+
+                                <span class="code-blue">
+                                    $role
+                                </span>
+
+                                <span class="code-white">
+                                    =
+                                </span>
+
+                                <span class="code-green">
+                                    "Web Developer";
+                                </span>
+
+                            </div>
+
+
+                            <div class="code-line">
+
+                                <span class="code-purple">public</span>
+
+                                <span class="code-blue">
+                                    $focus
+                                </span>
+
+                                <span class="code-white">
+                                    =
+                                </span>
+
+                                <span class="code-green">
+                                    "Web Solutions";
+                                </span>
+
+                            </div>
+
+
+                            <div class="code-line">
+
+                                <span class="code-purple">public</span>
+
+                                <span class="code-blue">
+                                    $mindset
+                                </span>
+
+                                <span class="code-white">
+                                    =
+                                </span>
+
+                                <span class="code-green">
+                                    "Always Learning";
+                                </span>
+
+                            </div>
+
+
+                            <br>
+
+                            <div>
+                                <span class="code-white">}</span>
+                            </div>
+
+
+                            <div class="code-status">
+
+                                <span class="status-dot"></span>
+
+                                <span>
+                                    Available for new projects
+                                </span>
+
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <span>
-                        developer.php
-                    </span>
+
+                    {{-- Experience Badge --}}
+                    <div class="about-experience">
+
+                        <div class="experience-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Web Development
+                            </strong>
+
+                            <small>
+                                Laravel • PHP • WordPress
+                            </small>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
 
-                {{-- Code --}}
-                <div class="profile-code">
+                {{-- ================================
+            RIGHT — CONTENT
+        ================================= --}}
 
-                    <div>
-                        <span class="code-purple">class</span>
-                        <span class="code-blue">Developer</span>
-                        <span class="code-white">{</span>
+                <div class="col-lg-7">
+
+                    <div class="about-content">
+
+                        <span class="about-eyebrow">
+                            WHO I AM
+                        </span>
+
+                        <h3>
+                            A Developer Who Turns
+                            <span class="gradient-text">
+                                Ideas Into Reality
+                            </span>
+                        </h3>
+
+
+                        <p>
+                            I'm <strong>Md. Tanvir Rahman</strong>, a web
+                            developer focused on building modern,
+                            functional and scalable web solutions.
+                        </p>
+
+                        <p>
+                            My primary expertise is Laravel and PHP
+                            development. I enjoy creating custom web
+                            applications, business platforms and
+                            eCommerce solutions that are reliable,
+                            maintainable and easy to use.
+                        </p>
+
+                        <p>
+                            I also work with WordPress and Elementor,
+                            helping businesses build professional,
+                            responsive and conversion-focused websites.
+                        </p>
+
+
+                        {{-- Feature Grid --}}
+                        <div class="about-feature-grid">
+
+                            <div class="about-feature">
+
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+
+                                <div>
+
+                                    <h5>
+                                        Clean Code
+                                    </h5>
+
+                                    <p>
+                                        Structured and maintainable
+                                        development.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="about-feature">
+
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                </div>
+
+                                <div>
+
+                                    <h5>
+                                        Responsive
+                                    </h5>
+
+                                    <p>
+                                        Perfect across all devices.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="about-feature">
+
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-gauge-high"></i>
+                                </div>
+
+                                <div>
+
+                                    <h5>
+                                        Performance
+                                    </h5>
+
+                                    <p>
+                                        Fast and optimized solutions.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="about-feature">
+
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-lightbulb"></i>
+                                </div>
+
+                                <div>
+
+                                    <h5>
+                                        Problem Solving
+                                    </h5>
+
+                                    <p>
+                                        Turning complex ideas into
+                                        simple solutions.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        {{-- CTA --}}
+                        <div class="about-cta">
+
+                            <a href="#projects" class="btn btn-primary-custom">
+
+                                Explore My Work
+
+                                <i class="fa-solid fa-arrow-right ms-2"></i>
+
+                            </a>
+
+                            <a href="#contact" class="about-text-link">
+
+                                Let's Talk
+
+                                <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+
+                            </a>
+
+                        </div>
+
                     </div>
 
-                    <br>
+                </div>
 
-                    <div class="code-line">
+            </div>
 
-                        <span class="code-purple">public</span>
-
-                        <span class="code-blue">
-                            $name
-                        </span>
-
-                        <span class="code-white">
-                            =
-                        </span>
-
-                        <span class="code-green">
-                            "Tanvir Rahman";
-                        </span>
-
-                    </div>
+        </div>
 
 
-                    <div class="code-line">
+    </section>
+    {{-- ================================
+SKILLS / TECH STACK SECTION
+================================= --}}
 
-                        <span class="code-purple">public</span>
+    <section class="skills-section" id="skills">
 
-                        <span class="code-blue">
-                            $role
-                        </span>
+        <div class="container">
 
-                        <span class="code-white">
-                            =
-                        </span>
+            <div class="section-heading">
 
-                        <span class="code-green">
-                            "Web Developer";
-                        </span>
+                <span class="section-label">
+                    <span></span>
+                    TECH STACK
+                </span>
 
-                    </div>
+                <h2>
+                    Tools I Use To
+                    <span class="gradient-text">Build.</span>
+                </h2>
 
+                <p>
+                    A carefully selected stack of technologies I use to
+                    build modern, scalable and high-performance websites
+                    and web applications.
+                </p>
 
-                    <div class="code-line">
-
-                        <span class="code-purple">public</span>
-
-                        <span class="code-blue">
-                            $focus
-                        </span>
-
-                        <span class="code-white">
-                            =
-                        </span>
-
-                        <span class="code-green">
-                            "Web Solutions";
-                        </span>
-
-                    </div>
+            </div>
 
 
-                    <div class="code-line">
+            <div class="row g-4">
 
-                        <span class="code-purple">public</span>
 
-                        <span class="code-blue">
-                            $mindset
-                        </span>
+                {{-- Laravel --}}
+                <div class="col-lg-3 col-md-4 col-6">
 
-                        <span class="code-white">
-                            =
-                        </span>
+                    <div class="skill-card">
 
-                        <span class="code-green">
-                            "Always Learning";
-                        </span>
+                        <div class="skill-icon laravel-icon">
+                            <i class="fa-brands fa-laravel"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>Laravel</h5>
+
+                            <span>PHP Framework</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 90%;"></div>
+                        </div>
+
+                        <small>Advanced</small>
 
                     </div>
 
+                </div>
 
-                    <br>
 
-                    <div>
-                        <span class="code-white">}</span>
+                {{-- PHP --}}
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon php-icon">
+                            <i class="fa-brands fa-php"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>PHP</h5>
+
+                            <span>Backend Development</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 88%;"></div>
+                        </div>
+
+                        <small>Advanced</small>
+
                     </div>
 
+                </div>
 
-                    <div class="code-status">
 
-                        <span class="status-dot"></span>
+                {{-- WordPress --}}
+                <div class="col-lg-3 col-md-4 col-6">
 
-                        <span>
-                            Available for new projects
-                        </span>
+                    <div class="skill-card">
+
+                        <div class="skill-icon wordpress-icon">
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>WordPress</h5>
+
+                            <span>CMS Development</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 88%;"></div>
+                        </div>
+
+                        <small>Advanced</small>
+
+                    </div>
+
+                </div>
+
+
+                {{-- Elementor --}}
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon elementor-icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>Elementor</h5>
+
+                            <span>Page Builder</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 90%;"></div>
+                        </div>
+
+                        <small>Advanced</small>
+
+                    </div>
+
+                </div>
+
+
+                {{-- MySQL --}}
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon mysql-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>MySQL</h5>
+
+                            <span>Database</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 82%;"></div>
+                        </div>
+
+                        <small>Advanced</small>
+
+                    </div>
+
+                </div>
+
+
+                {{-- Bootstrap --}}
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon bootstrap-icon">
+                            <i class="fa-brands fa-bootstrap"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>Bootstrap</h5>
+
+                            <span>UI Framework</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 90%;"></div>
+                        </div>
+
+                        <small>Advanced</small>
+
+                    </div>
+
+                </div>
+
+
+                {{-- JavaScript --}}
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon js-icon">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>JavaScript</h5>
+
+                            <span>Frontend Logic</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 72%;"></div>
+                        </div>
+
+                        <small>Intermediate</small>
+
+                    </div>
+
+                </div>
+
+
+                {{-- Git --}}
+                <div class="col-lg-3 col-md-4 col-6">
+
+                    <div class="skill-card">
+
+                        <div class="skill-icon git-icon">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </div>
+
+                        <div class="skill-info">
+
+                            <h5>Git</h5>
+
+                            <span>Version Control</span>
+
+                        </div>
+
+                        <div class="skill-level">
+                            <div style="width: 78%;"></div>
+                        </div>
+
+                        <small>Intermediate</small>
 
                     </div>
 
@@ -626,22 +1069,23 @@
             </div>
 
 
-            {{-- Experience Badge --}}
-            <div class="about-experience">
+            {{-- Bottom Highlight --}}
+            <div class="skills-highlight">
 
-                <div class="experience-icon">
+                <div class="skills-highlight-icon">
                     <i class="fa-solid fa-code"></i>
                 </div>
 
                 <div>
 
                     <strong>
-                        Web Development
+                        Always learning. Always improving.
                     </strong>
 
-                    <small>
-                        Laravel • PHP • WordPress
-                    </small>
+                    <p>
+                        I continuously explore new technologies and
+                        development practices to build better solutions.
+                    </p>
 
                 </div>
 
@@ -650,925 +1094,467 @@
         </div>
 
 
-        {{-- ================================
-            RIGHT — CONTENT
-        ================================= --}}
+    </section>
 
-        <div class="col-lg-7">
-
-            <div class="about-content">
-
-                <span class="about-eyebrow">
-                    WHO I AM
-                </span>
-
-                <h3>
-                    A Developer Who Turns
-                    <span class="gradient-text">
-                        Ideas Into Reality
-                    </span>
-                </h3>
-
-
-                <p>
-                    I'm <strong>Md. Tanvir Rahman</strong>, a web
-                    developer focused on building modern,
-                    functional and scalable web solutions.
-                </p>
-
-                <p>
-                    My primary expertise is Laravel and PHP
-                    development. I enjoy creating custom web
-                    applications, business platforms and
-                    eCommerce solutions that are reliable,
-                    maintainable and easy to use.
-                </p>
-
-                <p>
-                    I also work with WordPress and Elementor,
-                    helping businesses build professional,
-                    responsive and conversion-focused websites.
-                </p>
-
-
-                {{-- Feature Grid --}}
-                <div class="about-feature-grid">
-
-                    <div class="about-feature">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-code"></i>
-                        </div>
-
-                        <div>
-
-                            <h5>
-                                Clean Code
-                            </h5>
-
-                            <p>
-                                Structured and maintainable
-                                development.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="about-feature">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-mobile-screen-button"></i>
-                        </div>
-
-                        <div>
-
-                            <h5>
-                                Responsive
-                            </h5>
-
-                            <p>
-                                Perfect across all devices.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="about-feature">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-gauge-high"></i>
-                        </div>
-
-                        <div>
-
-                            <h5>
-                                Performance
-                            </h5>
-
-                            <p>
-                                Fast and optimized solutions.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="about-feature">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-lightbulb"></i>
-                        </div>
-
-                        <div>
-
-                            <h5>
-                                Problem Solving
-                            </h5>
-
-                            <p>
-                                Turning complex ideas into
-                                simple solutions.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                {{-- CTA --}}
-                <div class="about-cta">
-
-                    <a href="#projects"
-                       class="btn btn-primary-custom">
-
-                        Explore My Work
-
-                        <i class="fa-solid fa-arrow-right ms-2"></i>
-
-                    </a>
-
-                    <a href="#contact"
-                       class="about-text-link">
-
-                        Let's Talk
-
-                        <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-</section>
-{{-- ================================
-SKILLS / TECH STACK SECTION
-================================= --}}
-
-<section class="skills-section" id="skills">
-
-<div class="container">
-
-    <div class="section-heading">
-
-        <span class="section-label">
-            <span></span>
-            TECH STACK
-        </span>
-
-        <h2>
-            Tools I Use To
-            <span class="gradient-text">Build.</span>
-        </h2>
-
-        <p>
-            A carefully selected stack of technologies I use to
-            build modern, scalable and high-performance websites
-            and web applications.
-        </p>
-
-    </div>
-
-
-    <div class="row g-4">
-
-
-        {{-- Laravel --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon laravel-icon">
-                    <i class="fa-brands fa-laravel"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>Laravel</h5>
-
-                    <span>PHP Framework</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 90%;"></div>
-                </div>
-
-                <small>Advanced</small>
-
-            </div>
-
-        </div>
-
-
-        {{-- PHP --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon php-icon">
-                    <i class="fa-brands fa-php"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>PHP</h5>
-
-                    <span>Backend Development</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 88%;"></div>
-                </div>
-
-                <small>Advanced</small>
-
-            </div>
-
-        </div>
-
-
-        {{-- WordPress --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon wordpress-icon">
-                    <i class="fa-brands fa-wordpress"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>WordPress</h5>
-
-                    <span>CMS Development</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 88%;"></div>
-                </div>
-
-                <small>Advanced</small>
-
-            </div>
-
-        </div>
-
-
-        {{-- Elementor --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon elementor-icon">
-                    <i class="fa-solid fa-layer-group"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>Elementor</h5>
-
-                    <span>Page Builder</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 90%;"></div>
-                </div>
-
-                <small>Advanced</small>
-
-            </div>
-
-        </div>
-
-
-        {{-- MySQL --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon mysql-icon">
-                    <i class="fa-solid fa-database"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>MySQL</h5>
-
-                    <span>Database</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 82%;"></div>
-                </div>
-
-                <small>Advanced</small>
-
-            </div>
-
-        </div>
-
-
-        {{-- Bootstrap --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon bootstrap-icon">
-                    <i class="fa-brands fa-bootstrap"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>Bootstrap</h5>
-
-                    <span>UI Framework</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 90%;"></div>
-                </div>
-
-                <small>Advanced</small>
-
-            </div>
-
-        </div>
-
-
-        {{-- JavaScript --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon js-icon">
-                    <i class="fa-brands fa-js"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>JavaScript</h5>
-
-                    <span>Frontend Logic</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 72%;"></div>
-                </div>
-
-                <small>Intermediate</small>
-
-            </div>
-
-        </div>
-
-
-        {{-- Git --}}
-        <div class="col-lg-3 col-md-4 col-6">
-
-            <div class="skill-card">
-
-                <div class="skill-icon git-icon">
-                    <i class="fa-brands fa-git-alt"></i>
-                </div>
-
-                <div class="skill-info">
-
-                    <h5>Git</h5>
-
-                    <span>Version Control</span>
-
-                </div>
-
-                <div class="skill-level">
-                    <div style="width: 78%;"></div>
-                </div>
-
-                <small>Intermediate</small>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    {{-- Bottom Highlight --}}
-    <div class="skills-highlight">
-
-        <div class="skills-highlight-icon">
-            <i class="fa-solid fa-code"></i>
-        </div>
-
-        <div>
-
-            <strong>
-                Always learning. Always improving.
-            </strong>
-
-            <p>
-                I continuously explore new technologies and
-                development practices to build better solutions.
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-</section>
-
-{{-- ================================
+    {{-- ================================
 SERVICES SECTION
 ================================= --}}
 
-<section class="services-section" id="services">
+    <section class="services-section" id="services">
 
-<div class="container">
+        <div class="container">
 
-    {{-- Section Heading --}}
-    <div class="section-heading">
+            {{-- Section Heading --}}
+            <div class="section-heading">
 
-        <span class="section-label">
-            <span></span>
-            WHAT I BUILD
-        </span>
+                <span class="section-label">
+                    <span></span>
+                    WHAT I BUILD
+                </span>
 
-        <h2>
-            Turning Ideas Into
-            <span class="gradient-text">Solutions.</span>
-        </h2>
+                <h2>
+                    Turning Ideas Into
+                    <span class="gradient-text">Solutions.</span>
+                </h2>
 
-        <p>
-            From custom web applications to complete online stores,
-            I build digital solutions focused on performance,
-            usability and business growth.
-        </p>
+                <p>
+                    From custom web applications to complete online stores,
+                    I build digital solutions focused on performance,
+                    usability and business growth.
+                </p>
 
-    </div>
-
-
-    <div class="row g-4">
+            </div>
 
 
-        {{-- ================================
+            <div class="row g-4">
+
+
+                {{-- ================================
             SERVICE 01
         ================================= --}}
 
-        <div class="col-lg-4">
+                <div class="col-lg-4">
 
-            <div class="service-card">
+                    <div class="service-card">
 
-                <div class="service-top">
+                        <div class="service-top">
 
-                    <span class="service-number">
-                        01
-                    </span>
+                            <span class="service-number">
+                                01
+                            </span>
 
-                    <div class="service-icon">
-                        <i class="fa-brands fa-laravel"></i>
+                            <div class="service-icon">
+                                <i class="fa-brands fa-laravel"></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="service-content">
+
+                            <span class="service-category">
+                                BACKEND & WEB APPLICATION
+                            </span>
+
+                            <h3>
+                                Laravel & PHP
+                                <span>Development</span>
+                            </h3>
+
+                            <p>
+                                Custom web applications built with clean,
+                                scalable and maintainable Laravel and PHP code.
+                            </p>
+
+
+                            <ul class="service-list">
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Custom Web Applications
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Admin Dashboard & Panels
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Database-Driven Systems
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Authentication & User Systems
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="service-footer">
+
+                            <span class="service-tech">
+                                Laravel
+                                <span>•</span>
+                                PHP
+                                <span>•</span>
+                                MySQL
+                            </span>
+
+                            <a href="#contact" class="service-link">
+                                Let's Build
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
                     </div>
 
                 </div>
 
 
-                <div class="service-content">
-
-                    <span class="service-category">
-                        BACKEND & WEB APPLICATION
-                    </span>
-
-                    <h3>
-                        Laravel & PHP
-                        <span>Development</span>
-                    </h3>
-
-                    <p>
-                        Custom web applications built with clean,
-                        scalable and maintainable Laravel and PHP code.
-                    </p>
-
-
-                    <ul class="service-list">
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Custom Web Applications
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Admin Dashboard & Panels
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Database-Driven Systems
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Authentication & User Systems
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <div class="service-footer">
-
-                    <span class="service-tech">
-                        Laravel
-                        <span>•</span>
-                        PHP
-                        <span>•</span>
-                        MySQL
-                    </span>
-
-                    <a href="#contact" class="service-link">
-                        Let's Build
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        {{-- ================================
+                {{-- ================================
             SERVICE 02
         ================================= --}}
 
-        <div class="col-lg-4">
+                <div class="col-lg-4">
 
-            <div class="service-card">
+                    <div class="service-card">
 
-                <div class="service-top">
+                        <div class="service-top">
 
-                    <span class="service-number">
-                        02
-                    </span>
+                            <span class="service-number">
+                                02
+                            </span>
 
-                    <div class="service-icon wordpress-service-icon">
-                        <i class="fa-brands fa-wordpress"></i>
+                            <div class="service-icon wordpress-service-icon">
+                                <i class="fa-brands fa-wordpress"></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="service-content">
+
+                            <span class="service-category">
+                                WEBSITE DEVELOPMENT
+                            </span>
+
+                            <h3>
+                                WordPress &
+                                <span>Elementor</span>
+                            </h3>
+
+                            <p>
+                                Professional, responsive and modern websites
+                                designed to help businesses establish a strong
+                                online presence.
+                            </p>
+
+
+                            <ul class="service-list">
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Business Websites
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Elementor Websites
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Landing Pages
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Responsive Design
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="service-footer">
+
+                            <span class="service-tech">
+                                WordPress
+                                <span>•</span>
+                                Elementor
+                                <span>•</span>
+                                Responsive
+                            </span>
+
+                            <a href="#contact" class="service-link">
+                                Let's Build
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
                     </div>
 
                 </div>
 
 
-                <div class="service-content">
-
-                    <span class="service-category">
-                        WEBSITE DEVELOPMENT
-                    </span>
-
-                    <h3>
-                        WordPress &
-                        <span>Elementor</span>
-                    </h3>
-
-                    <p>
-                        Professional, responsive and modern websites
-                        designed to help businesses establish a strong
-                        online presence.
-                    </p>
-
-
-                    <ul class="service-list">
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Business Websites
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Elementor Websites
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Landing Pages
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Responsive Design
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <div class="service-footer">
-
-                    <span class="service-tech">
-                        WordPress
-                        <span>•</span>
-                        Elementor
-                        <span>•</span>
-                        Responsive
-                    </span>
-
-                    <a href="#contact" class="service-link">
-                        Let's Build
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        {{-- ================================
+                {{-- ================================
             SERVICE 03
         ================================= --}}
 
-        <div class="col-lg-4">
+                <div class="col-lg-4">
 
-            <div class="service-card featured-service">
+                    <div class="service-card featured-service">
 
-                <div class="featured-label">
-                    MOST REQUESTED
-                </div>
+                        <div class="featured-label">
+                            MOST REQUESTED
+                        </div>
 
 
-                <div class="service-top">
+                        <div class="service-top">
 
-                    <span class="service-number">
-                        03
-                    </span>
+                            <span class="service-number">
+                                03
+                            </span>
 
-                    <div class="service-icon ecommerce-service-icon">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                            <div class="service-icon ecommerce-service-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="service-content">
+
+                            <span class="service-category">
+                                ONLINE BUSINESS
+                            </span>
+
+                            <h3>
+                                eCommerce
+                                <span>Solutions</span>
+                            </h3>
+
+                            <p>
+                                Complete online stores with powerful
+                                product management, shopping cart,
+                                checkout and order management features.
+                            </p>
+
+
+                            <ul class="service-list">
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Product & Category Management
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Shopping Cart & Checkout
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Payment Integration
+                                </li>
+
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Order Management
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="service-footer">
+
+                            <span class="service-tech">
+                                Laravel
+                                <span>•</span>
+                                PHP
+                                <span>•</span>
+                                MySQL
+                            </span>
+
+                            <a href="#contact" class="service-link">
+                                Let's Build
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
                     </div>
-
-                </div>
-
-
-                <div class="service-content">
-
-                    <span class="service-category">
-                        ONLINE BUSINESS
-                    </span>
-
-                    <h3>
-                        eCommerce
-                        <span>Solutions</span>
-                    </h3>
-
-                    <p>
-                        Complete online stores with powerful
-                        product management, shopping cart,
-                        checkout and order management features.
-                    </p>
-
-
-                    <ul class="service-list">
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Product & Category Management
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Shopping Cart & Checkout
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Payment Integration
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-check"></i>
-                            Order Management
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <div class="service-footer">
-
-                    <span class="service-tech">
-                        Laravel
-                        <span>•</span>
-                        PHP
-                        <span>•</span>
-                        MySQL
-                    </span>
-
-                    <a href="#contact" class="service-link">
-                        Let's Build
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
 
                 </div>
 
             </div>
 
+
+            {{-- Bottom CTA --}}
+
+            <div class="services-bottom">
+
+                <div>
+
+                    <span>
+                        HAVE A PROJECT IN MIND?
+                    </span>
+
+                    <h4>
+                        Let's turn your idea into something
+                        <strong>great.</strong>
+                    </h4>
+
+                </div>
+
+
+                <a href="#contact" class="btn btn-primary-custom">
+
+                    Start a Project
+
+                    <i class="fa-solid fa-arrow-right ms-2"></i>
+
+                </a>
+
+            </div>
+
         </div>
 
-    </div>
+
+    </section>
 
 
-    {{-- Bottom CTA --}}
-
-    <div class="services-bottom">
-
-        <div>
-
-            <span>
-                HAVE A PROJECT IN MIND?
-            </span>
-
-            <h4>
-                Let's turn your idea into something
-                <strong>great.</strong>
-            </h4>
-
-        </div>
-
-
-        <a href="#contact"
-           class="btn btn-primary-custom">
-
-            Start a Project
-
-            <i class="fa-solid fa-arrow-right ms-2"></i>
-
-        </a>
-
-    </div>
-
-</div>
-
-
-</section>
-
-
-{{-- ================================
+    {{-- ================================
 PROJECTS SECTION
 ================================= --}}
 
-<section class="projects-section" id="projects">
+    <section class="projects-section" id="projects">
 
-    <div class="container">
+        <div class="container">
 
-        {{-- Section Heading --}}
-        <div class="section-heading">
+            {{-- Section Heading --}}
+            <div class="section-heading">
 
-            <span class="section-label">
-                <span></span>
-                MY PROJECTS
-            </span>
+                <span class="section-label">
+                    <span></span>
+                    MY PROJECTS
+                </span>
 
-            <h2>
-                Things I've
-                <span class="gradient-text">Built.</span>
-            </h2>
+                <h2>
+                    Things I've
+                    <span class="gradient-text">Built.</span>
+                </h2>
 
-            <p>
-                A selection of web applications, eCommerce platforms
-                and professional websites I've worked on using modern
-                technologies.
-            </p>
-            {{-- Project Filter --}}
+                <p>
+                    A selection of web applications, eCommerce platforms
+                    and professional websites I've worked on using modern
+                    technologies.
+                </p>
+                {{-- Project Filter --}}
 
-<div class="project-filters">
+                <div class="project-filters">
 
-    <button type="button"
-            class="project-filter active"
-            data-filter="all">
-        All
-    </button>
+                    <button type="button" class="project-filter active" data-filter="all">
+                        All
+                    </button>
 
-    <button type="button"
-            class="project-filter"
-            data-filter="laravel">
-        Laravel
-    </button>
+                    <button type="button" class="project-filter" data-filter="laravel">
+                        Laravel
+                    </button>
 
-    <button type="button"
-            class="project-filter"
-            data-filter="wordpress">
-        WordPress
-    </button>
+                    <button type="button" class="project-filter" data-filter="wordpress">
+                        WordPress
+                    </button>
 
-    <button type="button"
-            class="project-filter"
-            data-filter="ecommerce">
-        eCommerce
-    </button>
+                    <button type="button" class="project-filter" data-filter="ecommerce">
+                        eCommerce
+                    </button>
 
-</div>
+                </div>
 
-        </div>
+            </div>
 
 
-        {{-- Projects Grid --}}
-        <div class="row g-4">
+            {{-- Projects Grid --}}
+            <div class="row g-4">
 
 
-            {{-- ================================
+                {{-- ================================
             PROJECT 01
             ================================= --}}
 
-            <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
 
-                <div class="project-card"
-     data-category="ecommerce laravel">
+                    <div class="project-card" data-category="ecommerce laravel">
 
-                    <div class="project-image">
+                        <div class="project-image">
 
-                        {{-- Project Image --}}
-                        <img
-                            src="{{ asset('assets/images/r1.png') }}"
-                            alt="MyCommerce Laravel eCommerce">
+                            {{-- Project Image --}}
+                            <img src="{{ asset('assets/images/r1.png') }}" alt="MyCommerce Laravel eCommerce">
 
-                        <div class="project-overlay">
+                            <div class="project-overlay">
 
-                            <a href="https://wahzia-commerce.vercel.app/" class="project-view-btn">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                                <a href="https://wahzia-commerce.vercel.app/" class="project-view-btn">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
 
-                        </div>
+                            </div>
 
-                        <span class="project-status">
-                            Laravel
-                        </span>
-
-                    </div>
-
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            ECOMMERCE PLATFORM
-                        </span>
-
-                        <h3>
-                            MyCommerce
-                        </h3>
-
-                        <p>
-                            A complete Laravel-based eCommerce platform
-                            with product management, cart, checkout,
-                            payment and order management.
-                        </p>
-
-
-                        <div class="project-tech">
-
-                            <span>Laravel</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>Bootstrap</span>
+                            <span class="project-status">
+                                Laravel
+                            </span>
 
                         </div>
 
 
-                        <div class="project-footer">
+                        <div class="project-content">
 
-                            <a href="#" class="project-link">
-                                View Project
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <span class="project-category">
+                                ECOMMERCE PLATFORM
+                            </span>
 
-                            <a href="#" class="project-github">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                            <h3>
+                                MyCommerce
+                            </h3>
+
+                            <p>
+                                A complete Laravel-based eCommerce platform
+                                with product management, cart, checkout,
+                                payment and order management.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+
+                            </div>
+
+
+                            <div class="project-footer">
+
+                                <a href="#" class="project-link">
+                                    View Project
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                                <a href="#" class="project-github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+
+                            </div>
 
                         </div>
 
@@ -1576,77 +1562,74 @@ PROJECTS SECTION
 
                 </div>
 
-            </div>
 
 
-
-            {{-- ================================
+                {{-- ================================
             PROJECT 02
             ================================= --}}
 
-            <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
 
-                <div class="project-card"
-     data-category="wordpress">
+                    <div class="project-card" data-category="wordpress">
 
-                    <div class="project-image">
+                        <div class="project-image">
 
-                        <img
-                            src="{{ asset('assets/images/wp.png') }}"
-                            alt="WordPress Website">
+                            <img src="{{ asset('assets/images/wp.png') }}" alt="WordPress Website">
 
-                        <div class="project-overlay">
+                            <div class="project-overlay">
 
-                            <a href="#" class="project-view-btn">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                                <a href="#" class="project-view-btn">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
 
-                        </div>
+                            </div>
 
-                        <span class="project-status">
-                            WordPress
-                        </span>
-
-                    </div>
-
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            BUSINESS WEBSITE
-                        </span>
-
-                        <h3>
-                            Business Website
-                        </h3>
-
-                        <p>
-                            A modern and responsive business website
-                            developed using WordPress and Elementor
-                            with a clean professional interface.
-                        </p>
-
-
-                        <div class="project-tech">
-
-                            <span>WordPress</span>
-                            <span>Elementor</span>
-                            <span>PHP</span>
-                            <span>CSS</span>
+                            <span class="project-status">
+                                WordPress
+                            </span>
 
                         </div>
 
 
-                        <div class="project-footer">
+                        <div class="project-content">
 
-                            <a href="#" class="project-link">
-                                View Project
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <span class="project-category">
+                                BUSINESS WEBSITE
+                            </span>
 
-                            <a href="#" class="project-github">
-                                <i class="fa-solid fa-link"></i>
-                            </a>
+                            <h3>
+                                Business Website
+                            </h3>
+
+                            <p>
+                                A modern and responsive business website
+                                developed using WordPress and Elementor
+                                with a clean professional interface.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>WordPress</span>
+                                <span>Elementor</span>
+                                <span>PHP</span>
+                                <span>CSS</span>
+
+                            </div>
+
+
+                            <div class="project-footer">
+
+                                <a href="#" class="project-link">
+                                    View Project
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                                <a href="#" class="project-github">
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+
+                            </div>
 
                         </div>
 
@@ -1654,81 +1637,78 @@ PROJECTS SECTION
 
                 </div>
 
-            </div>
 
 
-
-            {{-- ================================
+                {{-- ================================
             PROJECT 03
             ================================= --}}
 
-            <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
 
-                <div class="project-card featured-project"
-     data-category="ecommerce laravel">
+                    <div class="project-card featured-project" data-category="ecommerce laravel">
 
-                    <div class="featured-project-label">
-                        FEATURED
-                    </div>
-
-                    <div class="project-image">
-
-                        <img
-                            src="{{ asset('assets/images/r1.png') }}"
-                            alt="Laravel eCommerce Project">
-
-                        <div class="project-overlay">
-
-                            <a href="#" class="project-view-btn">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-
+                        <div class="featured-project-label">
+                            FEATURED
                         </div>
 
-                        <span class="project-status">
-                            eCommerce
-                        </span>
+                        <div class="project-image">
 
-                    </div>
+                            <img src="{{ asset('assets/images/r1.png') }}" alt="Laravel eCommerce Project">
 
+                            <div class="project-overlay">
 
-                    <div class="project-content">
+                                <a href="#" class="project-view-btn">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
 
-                        <span class="project-category">
-                            ONLINE STORE
-                        </span>
+                            </div>
 
-                        <h3>
-                            Laravel eCommerce
-                        </h3>
-
-                        <p>
-                            A powerful online store with product,
-                            category, cart, checkout, payment and
-                            complete order management system.
-                        </p>
-
-
-                        <div class="project-tech">
-
-                            <span>Laravel</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>JavaScript</span>
+                            <span class="project-status">
+                                eCommerce
+                            </span>
 
                         </div>
 
 
-                        <div class="project-footer">
+                        <div class="project-content">
 
-                            <a href="#" class="project-link">
-                                View Project
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <span class="project-category">
+                                ONLINE STORE
+                            </span>
 
-                            <a href="#" class="project-github">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                            <h3>
+                                Laravel eCommerce
+                            </h3>
+
+                            <p>
+                                A powerful online store with product,
+                                category, cart, checkout, payment and
+                                complete order management system.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+
+                            <div class="project-footer">
+
+                                <a href="#" class="project-link">
+                                    View Project
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                                <a href="#" class="project-github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+
+                            </div>
 
                         </div>
 
@@ -1736,77 +1716,74 @@ PROJECTS SECTION
 
                 </div>
 
-            </div>
 
 
-
-            {{-- ================================
+                {{-- ================================
             PROJECT 04
             ================================= --}}
 
-            <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
 
-                <div class="project-card"
-     data-category="laravel">
+                    <div class="project-card" data-category="laravel">
 
-                    <div class="project-image">
+                        <div class="project-image">
 
-                        <img
-                            src="{{ asset('assets/images/r2.png') }}"
-                            alt="Admin Dashboard">
+                            <img src="{{ asset('assets/images/r2.png') }}" alt="Admin Dashboard">
 
-                        <div class="project-overlay">
+                            <div class="project-overlay">
 
-                            <a href="#" class="project-view-btn">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                                <a href="#" class="project-view-btn">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
 
-                        </div>
+                            </div>
 
-                        <span class="project-status">
-                            Laravel
-                        </span>
-
-                    </div>
-
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            ADMIN SYSTEM
-                        </span>
-
-                        <h3>
-                            Admin Dashboard
-                        </h3>
-
-                        <p>
-                            A modern admin dashboard for managing
-                            products, categories, customers, orders
-                            and website content.
-                        </p>
-
-
-                        <div class="project-tech">
-
-                            <span>Laravel</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>Bootstrap</span>
+                            <span class="project-status">
+                                Laravel
+                            </span>
 
                         </div>
 
 
-                        <div class="project-footer">
+                        <div class="project-content">
 
-                            <a href="#" class="project-link">
-                                View Project
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <span class="project-category">
+                                ADMIN SYSTEM
+                            </span>
 
-                            <a href="#" class="project-github">
-                                <i class="fa-solid fa-link"></i>
-                            </a>
+                            <h3>
+                                Admin Dashboard
+                            </h3>
+
+                            <p>
+                                A modern admin dashboard for managing
+                                products, categories, customers, orders
+                                and website content.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+
+                            </div>
+
+
+                            <div class="project-footer">
+
+                                <a href="#" class="project-link">
+                                    View Project
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                                <a href="#" class="project-github">
+                                    <i class="fa-solid fa-link"></i>
+                                </a>
+
+                            </div>
 
                         </div>
 
@@ -1814,77 +1791,74 @@ PROJECTS SECTION
 
                 </div>
 
-            </div>
 
 
-
-            {{-- ================================
+                {{-- ================================
             PROJECT 05
             ================================= --}}
 
-            <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
 
-                <div class="project-card"
-     data-category="laravel">
+                    <div class="project-card" data-category="laravel">
 
-                    <div class="project-image">
+                        <div class="project-image">
 
-                        <img
-                            src="{{ asset('assets/images/portfolio.png') }}"
-                            alt="Portfolio Website">
+                            <img src="{{ asset('assets/images/portfolio.png') }}" alt="Portfolio Website">
 
-                        <div class="project-overlay">
+                            <div class="project-overlay">
 
-                            <a href="https://tanvirrahman-portfolio.vercel.app/" class="project-view-btn">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                                <a href="https://tanvirrahman-portfolio.vercel.app/" class="project-view-btn">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
 
-                        </div>
+                            </div>
 
-                        <span class="project-status">
-                            Portfolio
-                        </span>
-
-                    </div>
-
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            PERSONAL WEBSITE
-                        </span>
-
-                        <h3>
-                            Developer Portfolio
-                        </h3>
-
-                        <p>
-                            A modern developer portfolio website
-                            showcasing skills, services, projects
-                            and professional experience.
-                        </p>
-
-
-                        <div class="project-tech">
-
-                            <span>Laravel</span>
-                            <span>Blade</span>
-                            <span>Bootstrap</span>
-                            <span>CSS</span>
+                            <span class="project-status">
+                                Portfolio
+                            </span>
 
                         </div>
 
 
-                        <div class="project-footer">
+                        <div class="project-content">
 
-                            <a href="#" class="project-link">
-                                View Project
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <span class="project-category">
+                                PERSONAL WEBSITE
+                            </span>
 
-                            <a href="#" class="project-github">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                            <h3>
+                                Developer Portfolio
+                            </h3>
+
+                            <p>
+                                A modern developer portfolio website
+                                showcasing skills, services, projects
+                                and professional experience.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>Laravel</span>
+                                <span>Blade</span>
+                                <span>Bootstrap</span>
+                                <span>CSS</span>
+
+                            </div>
+
+
+                            <div class="project-footer">
+
+                                <a href="#" class="project-link">
+                                    View Project
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                                <a href="#" class="project-github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+
+                            </div>
 
                         </div>
 
@@ -1892,77 +1866,74 @@ PROJECTS SECTION
 
                 </div>
 
-            </div>
 
 
-
-            {{-- ================================
+                {{-- ================================
             PROJECT 06
             ================================= --}}
 
-            <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
 
-                <div class="project-card"
-     data-category="laravel">
+                    <div class="project-card" data-category="laravel">
 
-                    <div class="project-image">
+                        <div class="project-image">
 
-                        <img
-                            src="{{ asset('assets/images/r2.png') }}"
-                            alt="Custom Web Application">
+                            <img src="{{ asset('assets/images/r2.png') }}" alt="Custom Web Application">
 
-                        <div class="project-overlay">
+                            <div class="project-overlay">
 
-                            <a href="#" class="project-view-btn">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                                <a href="#" class="project-view-btn">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
 
-                        </div>
+                            </div>
 
-                        <span class="project-status">
-                            Web App
-                        </span>
-
-                    </div>
-
-
-                    <div class="project-content">
-
-                        <span class="project-category">
-                            CUSTOM APPLICATION
-                        </span>
-
-                        <h3>
-                            Custom Web Application
-                        </h3>
-
-                        <p>
-                            A database-driven web application designed
-                            with authentication, admin management and
-                            dynamic content features.
-                        </p>
-
-
-                        <div class="project-tech">
-
-                            <span>Laravel</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>JavaScript</span>
+                            <span class="project-status">
+                                Web App
+                            </span>
 
                         </div>
 
 
-                        <div class="project-footer">
+                        <div class="project-content">
 
-                            <a href="#" class="project-link">
-                                View Project
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <span class="project-category">
+                                CUSTOM APPLICATION
+                            </span>
 
-                            <a href="#" class="project-github">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
+                            <h3>
+                                Custom Web Application
+                            </h3>
+
+                            <p>
+                                A database-driven web application designed
+                                with authentication, admin management and
+                                dynamic content features.
+                            </p>
+
+
+                            <div class="project-tech">
+
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+
+                            </div>
+
+
+                            <div class="project-footer">
+
+                                <a href="#" class="project-link">
+                                    View Project
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                                <a href="#" class="project-github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+
+                            </div>
 
                         </div>
 
@@ -1972,455 +1943,455 @@ PROJECTS SECTION
 
             </div>
 
+
+
         </div>
 
+    </section>
 
-
-    </div>
-
-</section>
-
-{{-- ================================
+    {{-- ================================
 EXPERIENCE / JOURNEY SECTION
 ================================= --}}
 
-<section class="experience-section" id="experience">
+    <section class="experience-section" id="experience">
 
-    <div class="container">
+        <div class="container">
 
-        {{-- Section Heading --}}
-        <div class="section-heading">
+            {{-- Section Heading --}}
+            <div class="section-heading">
 
-            <span class="section-label">
-                <span></span>
-                MY JOURNEY
-            </span>
+                <span class="section-label">
+                    <span></span>
+                    MY JOURNEY
+                </span>
 
-            <h2>
-                My Development
-                <span class="gradient-text">Journey.</span>
-            </h2>
+                <h2>
+                    My Development
+                    <span class="gradient-text">Journey.</span>
+                </h2>
 
-            <p>
-                A continuous journey of learning, building and
-                improving modern web solutions.
-            </p>
+                <p>
+                    A continuous journey of learning, building and
+                    improving modern web solutions.
+                </p>
+
+            </div>
+
+
+            {{-- Timeline --}}
+            <div class="experience-timeline">
+
+                {{-- 01 --}}
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-year">
+                            2023
+                        </span>
+
+                        <h3>
+                            Started Web Development
+                        </h3>
+
+                        <p>
+                            Started building websites and learning
+                            modern web development fundamentals,
+                            PHP, HTML, CSS and JavaScript.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                {{-- 02 --}}
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-year">
+                            2024
+                        </span>
+
+                        <h3>
+                            Laravel & PHP Development
+                        </h3>
+
+                        <p>
+                            Focused on Laravel and PHP development,
+                            database-driven applications,
+                            authentication and admin systems.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                {{-- 03 --}}
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-year">
+                            2025
+                        </span>
+
+                        <h3>
+                            eCommerce & WordPress
+                        </h3>
+
+                        <p>
+                            Started developing complete eCommerce
+                            platforms, WordPress websites and
+                            Elementor-based business websites.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                {{-- 04 --}}
+                <div class="timeline-item">
+
+                    <div class="timeline-dot">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-year">
+                            2026
+                        </span>
+
+                        <h3>
+                            Building Professional Solutions
+                        </h3>
+
+                        <p>
+                            Building scalable Laravel applications,
+                            eCommerce systems and professional web
+                            solutions for businesses and clients.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
+    </section>
 
-        {{-- Timeline --}}
-        <div class="experience-timeline">
-
-            {{-- 01 --}}
-            <div class="timeline-item">
-
-                <div class="timeline-dot">
-                    <i class="fa-solid fa-code"></i>
-                </div>
-
-                <div class="timeline-content">
-
-                    <span class="timeline-year">
-                        2023
-                    </span>
-
-                    <h3>
-                        Started Web Development
-                    </h3>
-
-                    <p>
-                        Started building websites and learning
-                        modern web development fundamentals,
-                        PHP, HTML, CSS and JavaScript.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            {{-- 02 --}}
-            <div class="timeline-item">
-
-                <div class="timeline-dot">
-                    <i class="fa-brands fa-php"></i>
-                </div>
-
-                <div class="timeline-content">
-
-                    <span class="timeline-year">
-                        2024
-                    </span>
-
-                    <h3>
-                        Laravel & PHP Development
-                    </h3>
-
-                    <p>
-                        Focused on Laravel and PHP development,
-                        database-driven applications,
-                        authentication and admin systems.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            {{-- 03 --}}
-            <div class="timeline-item">
-
-                <div class="timeline-dot">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-
-                <div class="timeline-content">
-
-                    <span class="timeline-year">
-                        2025
-                    </span>
-
-                    <h3>
-                        eCommerce & WordPress
-                    </h3>
-
-                    <p>
-                        Started developing complete eCommerce
-                        platforms, WordPress websites and
-                        Elementor-based business websites.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            {{-- 04 --}}
-            <div class="timeline-item">
-
-                <div class="timeline-dot">
-                    <i class="fa-solid fa-rocket"></i>
-                </div>
-
-                <div class="timeline-content">
-
-                    <span class="timeline-year">
-                        2026
-                    </span>
-
-                    <h3>
-                        Building Professional Solutions
-                    </h3>
-
-                    <p>
-                        Building scalable Laravel applications,
-                        eCommerce systems and professional web
-                        solutions for businesses and clients.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-{{-- ================================
+    {{-- ================================
 TESTIMONIALS SECTION
 ================================= --}}
 
-<section class="testimonials-section" id="testimonials">
+    <section class="testimonials-section" id="testimonials">
 
-    <div class="container">
+        <div class="container">
 
-        {{-- Section Heading --}}
-        <div class="section-heading">
+            {{-- Section Heading --}}
+            <div class="section-heading">
 
-            <span class="section-label">
-                <span></span>
-                CLIENT FEEDBACK
-            </span>
+                <span class="section-label">
+                    <span></span>
+                    CLIENT FEEDBACK
+                </span>
 
-            <h2>
-                What People
-                <span class="gradient-text">Say.</span>
-            </h2>
+                <h2>
+                    What People
+                    <span class="gradient-text">Say.</span>
+                </h2>
 
-            <p>
-                Feedback and experiences from people I've worked
-                with on different web development projects.
-            </p>
+                <p>
+                    Feedback and experiences from people I've worked
+                    with on different web development projects.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                {{-- Testimonial 01 --}}
+                <div class="col-lg-4">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-top">
+
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <i class="fa-solid fa-quote-right quote-icon"></i>
+
+                        </div>
+
+
+                        <p class="testimonial-text">
+                            Great communication and clean development work.
+                            The website was delivered with a professional
+                            design and smooth functionality.
+                        </p>
+
+
+                        <div class="testimonial-author">
+
+                            <div class="testimonial-avatar">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+
+                            <div>
+                                <h5>Client Name</h5>
+                                <span>Business Owner</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                {{-- Testimonial 02 --}}
+                <div class="col-lg-4">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-top">
+
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <i class="fa-solid fa-quote-right quote-icon"></i>
+
+                        </div>
+
+
+                        <p class="testimonial-text">
+                            Very good experience working together.
+                            The Laravel based system was organized,
+                            responsive and easy to manage.
+                        </p>
+
+
+                        <div class="testimonial-author">
+
+                            <div class="testimonial-avatar">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+
+                            <div>
+                                <h5>Client Name</h5>
+                                <span>Project Client</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                {{-- Testimonial 03 --}}
+                <div class="col-lg-4">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-top">
+
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <i class="fa-solid fa-quote-right quote-icon"></i>
+
+                        </div>
+
+
+                        <p class="testimonial-text">
+                            Professional work with attention to detail.
+                            The overall website looks modern and performs
+                            very well across devices.
+                        </p>
+
+
+                        <div class="testimonial-author">
+
+                            <div class="testimonial-avatar">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+
+                            <div>
+                                <h5>Client Name</h5>
+                                <span>Website Client</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
 
         </div>
 
+    </section>
 
-        <div class="row g-4">
-
-
-            {{-- Testimonial 01 --}}
-            <div class="col-lg-4">
-
-                <div class="testimonial-card">
-
-                    <div class="testimonial-top">
-
-                        <div class="testimonial-stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-
-                        <i class="fa-solid fa-quote-right quote-icon"></i>
-
-                    </div>
-
-
-                    <p class="testimonial-text">
-                        Great communication and clean development work.
-                        The website was delivered with a professional
-                        design and smooth functionality.
-                    </p>
-
-
-                    <div class="testimonial-author">
-
-                        <div class="testimonial-avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div>
-                            <h5>Client Name</h5>
-                            <span>Business Owner</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            {{-- Testimonial 02 --}}
-            <div class="col-lg-4">
-
-                <div class="testimonial-card">
-
-                    <div class="testimonial-top">
-
-                        <div class="testimonial-stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-
-                        <i class="fa-solid fa-quote-right quote-icon"></i>
-
-                    </div>
-
-
-                    <p class="testimonial-text">
-                        Very good experience working together.
-                        The Laravel based system was organized,
-                        responsive and easy to manage.
-                    </p>
-
-
-                    <div class="testimonial-author">
-
-                        <div class="testimonial-avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div>
-                            <h5>Client Name</h5>
-                            <span>Project Client</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            {{-- Testimonial 03 --}}
-            <div class="col-lg-4">
-
-                <div class="testimonial-card">
-
-                    <div class="testimonial-top">
-
-                        <div class="testimonial-stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-
-                        <i class="fa-solid fa-quote-right quote-icon"></i>
-
-                    </div>
-
-
-                    <p class="testimonial-text">
-                        Professional work with attention to detail.
-                        The overall website looks modern and performs
-                        very well across devices.
-                    </p>
-
-
-                    <div class="testimonial-author">
-
-                        <div class="testimonial-avatar">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-
-                        <div>
-                            <h5>Client Name</h5>
-                            <span>Website Client</span>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-{{-- ================================
+    {{-- ================================
 CONTACT SECTION
 ================================= --}}
 
-<section class="contact-section" id="contact">
+    <section class="contact-section" id="contact">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="section-heading">
+            <div class="section-heading">
 
-            <span class="section-label">
-                <span></span>
-                GET IN TOUCH
-            </span>
+                <span class="section-label">
+                    <span></span>
+                    GET IN TOUCH
+                </span>
 
-            <h2>
-                Let's Build Something
-                <span class="gradient-text">Great.</span>
-            </h2>
+                <h2>
+                    Let's Build Something
+                    <span class="gradient-text">Great.</span>
+                </h2>
 
-            <p>
-                Have a project, business idea or website requirement?
-                Let's discuss your project and turn your idea into reality.
-            </p>
+                <p>
+                    Have a project, business idea or website requirement?
+                    Let's discuss your project and turn your idea into reality.
+                </p>
 
-        </div>
-
-
-        <div class="row g-5 align-items-stretch">
+            </div>
 
 
-            {{-- Contact Information --}}
-            <div class="col-lg-5">
+            <div class="row g-5 align-items-stretch">
 
-                <div class="contact-info-card">
 
-                    <span class="contact-eyebrow">
-                        CONTACT ME
-                    </span>
+                {{-- Contact Information --}}
+                <div class="col-lg-5">
 
-                    <h3>
-                        Let's talk about
-                        <span class="gradient-text">
-                            your project.
+                    <div class="contact-info-card">
+
+                        <span class="contact-eyebrow">
+                            CONTACT ME
                         </span>
-                    </h3>
 
-                    <p>
-                        Whether you need a Laravel application,
-                        WordPress website or complete eCommerce
-                        solution, feel free to get in touch.
-                    </p>
+                        <h3>
+                            Let's talk about
+                            <span class="gradient-text">
+                                your project.
+                            </span>
+                        </h3>
+
+                        <p>
+                            Whether you need a Laravel application,
+                            WordPress website or complete eCommerce
+                            solution, feel free to get in touch.
+                        </p>
 
 
-                    {{-- Email --}}
-                    <div class="contact-info-item">
+                        {{-- Email --}}
+                        <div class="contact-info-item">
 
-                        <div class="contact-info-icon">
-                            <i class="fa-regular fa-envelope"></i>
+                            <div class="contact-info-icon">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:your@email.com">
+                                    your@email.com
+                                </a>
+                            </div>
+
                         </div>
 
-                        <div>
-                            <span>Email</span>
-                            <a href="mailto:your@email.com">
-                                your@email.com
-                            </a>
+
+                        {{-- Location --}}
+                        <div class="contact-info-item">
+
+                            <div class="contact-info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <span>Location</span>
+                                <strong>Bangladesh</strong>
+                            </div>
+
                         </div>
 
-                    </div>
 
+                        {{-- Availability --}}
+                        <div class="contact-info-item">
 
-                    {{-- Location --}}
-                    <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
 
-                        <div class="contact-info-icon">
-                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <span>Availability</span>
+                                <strong>Available for Freelance Work</strong>
+                            </div>
+
                         </div>
 
-                        <div>
-                            <span>Location</span>
-                            <strong>Bangladesh</strong>
-                        </div>
 
-                    </div>
+                        {{-- Social --}}
+                        <div class="contact-social">
 
+                            <span>Connect with me</span>
 
-                    {{-- Availability --}}
-                    <div class="contact-info-item">
+                            <div>
 
-                        <div class="contact-info-icon">
-                            <i class="fa-solid fa-circle-check"></i>
-                        </div>
+                                <a href="https://github.com/rahulltanvir" aria-label="GitHub">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
 
-                        <div>
-                            <span>Availability</span>
-                            <strong>Available for Freelance Work</strong>
-                        </div>
+                                <a href="https://www.linkedin.com/in/tanvir-rahman-803121271/" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
 
-                    </div>
+                                <a href="#" aria-label="Facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
 
-
-                    {{-- Social --}}
-                    <div class="contact-social">
-
-                        <span>Connect with me</span>
-
-                        <div>
-
-                            <a href="https://github.com/rahulltanvir" aria-label="GitHub">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-
-                            <a href="https://www.linkedin.com/in/tanvir-rahman-803121271/" aria-label="LinkedIn">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-
-                            <a href="#" aria-label="Facebook">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
+                            </div>
 
                         </div>
 
@@ -2428,126 +2399,217 @@ CONTACT SECTION
 
                 </div>
 
-            </div>
 
 
+                {{-- Contact Form --}}
+                <div class="col-lg-7">
 
-            {{-- Contact Form --}}
-            <div class="col-lg-7">
+                    <div class="contact-form-card">
 
-                <div class="contact-form-card">
+                        <form id="contact-form">
 
-                    <form action="#" method="POST">
+                            {{-- @csrf --}}
 
-                        @csrf
+                            <div class="row g-4">
 
-                        <div class="row g-4">
+                                {{-- Name --}}
+                                <div class="col-md-6">
 
-                            {{-- Name --}}
-                            <div class="col-md-6">
+                                    <label>
+                                        Your Name
+                                    </label>
 
-                                <label>
-                                    Your Name
-                                </label>
+                                    <input type="text" name="name" class="form-control"
+                                        placeholder="Enter your name" required>
 
-                                <input
-                                    type="text"
-                                    name="name"
-                                    class="form-control"
-                                    placeholder="Enter your name"
-                                    required
-                                >
-
-                            </div>
+                                </div>
 
 
-                            {{-- Email --}}
-                            <div class="col-md-6">
+                                {{-- Email --}}
+                                <div class="col-md-6">
 
-                                <label>
-                                    Email Address
-                                </label>
+                                    <label>
+                                        Email Address
+                                    </label>
 
-                                <input
-                                    type="email"
-                                    name="email"
-                                    class="form-control"
-                                    placeholder="Enter your email"
-                                    required
-                                >
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Enter your email" required>
 
-                            </div>
+                                </div>
 
 
-                            {{-- Subject --}}
-                            <div class="col-12">
+                                {{-- Subject --}}
+                                <div class="col-12">
 
-                                <label>
-                                    Subject
-                                </label>
+                                    <label>
+                                        Subject
+                                    </label>
 
-                                <input
-                                    type="text"
-                                    name="subject"
-                                    class="form-control"
-                                    placeholder="What is your project about?"
-                                    required
-                                >
+                                    <input type="text" name="subject" class="form-control"
+                                        placeholder="What is your project about?" required>
 
-                            </div>
+                                </div>
 
 
-                            {{-- Message --}}
-                            <div class="col-12">
+                                {{-- Message --}}
+                                <div class="col-12">
 
-                                <label>
-                                    Message
-                                </label>
+                                    <label>
+                                        Message
+                                    </label>
 
-                                <textarea
-                                    name="message"
-                                    rows="6"
-                                    class="form-control"
-                                    placeholder="Tell me about your project..."
-                                    required
-                                ></textarea>
+                                    <textarea name="message" rows="6" class="form-control" placeholder="Tell me about your project..." required></textarea>
+
+                                </div>
+
+
+                                {{-- Submit --}}
+                                <div class="col-12">
+
+                                    <button type="submit" class="btn btn-primary-custom contact-submit">
+                                        Send Message
+                                        <i class="fa-solid fa-paper-plane ms-2"></i>
+                                    </button>
+
+                                </div>
 
                             </div>
 
+                        </form>
 
-                            {{-- Submit --}}
-                            <div class="col-12">
-
-                                <button
-                                    type="submit"
-                                    class="btn btn-primary-custom contact-submit"
-                                >
-
-                                    Send Message
-
-                                    <i class="fa-solid fa-paper-plane ms-2"></i>
-
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </form>
+                    </div>
 
                 </div>
 
-            </div>
 
+            </div>
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    emailjs.init({
+        publicKey: "lst3xeVXNLIMPlvA-"
+    });
+
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        const form = this;
+        const button = form.querySelector("button[type='submit']");
+        const originalText = button.innerHTML;
+
+        button.disabled = true;
+        button.innerHTML =
+            'Sending... <i class="fa-solid fa-spinner fa-spin ms-2"></i>';
+
+        emailjs.sendForm(
+            "service_z0qbkzr",
+            "template_q8oedc8",
+            form
+        )
+        .then(function() {
+
+            showNotification(
+                "success",
+                "Message Sent!",
+                "Thank you! Your message has been sent successfully."
+            );
+
+            form.reset();
+
+            button.disabled = false;
+            button.innerHTML = originalText;
+
+        })
+        .catch(function(error) {
+
+            console.error("EmailJS Error:", error);
+
+            showNotification(
+                "error",
+                "Something Went Wrong",
+                "Your message could not be sent. Please try again."
+            );
+
+            button.disabled = false;
+            button.innerHTML = originalText;
+
+        });
+
+    });
+
+
+    function showNotification(type, title, message) {
+
+        const oldNotification = document.querySelector(".contact-notification");
+
+        if (oldNotification) {
+            oldNotification.remove();
+        }
+
+        const notification = document.createElement("div");
+
+        notification.className = "contact-notification " + type;
+
+        notification.innerHTML = `
+            <div class="notification-icon">
+                ${
+                    type === "success"
+                    ? '<i class="fa-solid fa-check"></i>'
+                    : '<i class="fa-solid fa-xmark"></i>'
+                }
+            </div>
+
+            <div class="notification-content">
+                <strong>${title}</strong>
+                <span>${message}</span>
+            </div>
+
+            <button class="notification-close" type="button">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        `;
+
+        document.body.appendChild(notification);
+
+        setTimeout(() => {
+            notification.classList.add("show");
+        }, 50);
+
+        const closeButton =
+            notification.querySelector(".notification-close");
+
+        closeButton.addEventListener("click", () => {
+            notification.classList.remove("show");
+
+            setTimeout(() => {
+                notification.remove();
+            }, 300);
+        });
+
+        setTimeout(() => {
+
+            if (notification.parentElement) {
+
+                notification.classList.remove("show");
+
+                setTimeout(() => {
+                    notification.remove();
+                }, 300);
+
+            }
+
+        }, 5000);
+    }
+</script>
 
 
 
@@ -2555,54 +2617,49 @@ CONTACT SECTION
 @endsection
 
 <script>
+    document.addEventListener('DOMContentLoaded', function() {
 
-document.addEventListener('DOMContentLoaded', function () {
+        const filters = document.querySelectorAll('.project-filter');
+        const projects = document.querySelectorAll('.project-card');
 
-    const filters = document.querySelectorAll('.project-filter');
-    const projects = document.querySelectorAll('.project-card');
+        filters.forEach(filter => {
 
-    filters.forEach(filter => {
+            filter.addEventListener('click', function() {
 
-        filter.addEventListener('click', function () {
+                // Remove active class
+                filters.forEach(btn => {
+                    btn.classList.remove('active');
+                });
 
-            // Remove active class
-            filters.forEach(btn => {
-                btn.classList.remove('active');
-            });
+                // Add active class
+                this.classList.add('active');
 
-            // Add active class
-            this.classList.add('active');
+                const selectedFilter = this.dataset.filter;
 
-            const selectedFilter = this.dataset.filter;
+                projects.forEach(project => {
 
-            projects.forEach(project => {
+                    const categories = project.dataset.category || '';
 
-                const categories = project.dataset.category || '';
+                    if (
+                        selectedFilter === 'all' ||
+                        categories.includes(selectedFilter)
+                    ) {
 
-                if (
-                    selectedFilter === 'all' ||
-                    categories.includes(selectedFilter)
-                ) {
+                        project.closest('[class*="col-"]')
+                            ?.classList.remove('project-hidden');
 
-                    project.closest('[class*="col-"]')
-                        ?.classList.remove('project-hidden');
+                    } else {
 
-                } else {
+                        project.closest('[class*="col-"]')
+                            ?.classList.add('project-hidden');
 
-                    project.closest('[class*="col-"]')
-                        ?.classList.add('project-hidden');
+                    }
 
-                }
+                });
 
             });
 
         });
 
     });
-
-});
-
 </script>
-
-
-
