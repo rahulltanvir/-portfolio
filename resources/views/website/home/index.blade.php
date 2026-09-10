@@ -2,7 +2,8 @@
 
 @section('title', 'Md. Tanvir Rahman | Laravel & WordPress Developer')
 
-@section('meta_description', 'Md. Tanvir Rahman is a Laravel, PHP, WordPress and eCommerce Developer building modern and
+@section('meta_description',
+    'Md. Tanvir Rahman is a Laravel, PHP, WordPress and eCommerce Developer building modern and
     professional web solutions.')
 
 @section('content')
@@ -158,168 +159,79 @@
 
                             <div class="code-body">
 
-                                <div>
-                                    <span class="code-purple">
-                                        &lt;?php
-                                    </span>
+                                <div class="code-content">
+                                    <div><span class="code-purple">&lt;?php</span></div>
+                                    <br>
+
+                                    <div>
+                                        <span class="code-purple">class</span>
+                                        <span class="code-blue">Developer</span>
+                                        <span class="code-white">{</span>
+                                    </div>
+
+                                    <div class="code-indent">
+                                        <span class="code-purple">public</span>
+                                        <span class="code-blue">$name</span>
+                                        <span class="code-white">=</span>
+                                        <span class="code-green">"Tanvir Rahman";</span>
+                                    </div>
+
+                                    <div class="code-indent">
+                                        <span class="code-purple">public</span>
+                                        <span class="code-blue">$role</span>
+                                        <span class="code-white">=</span>
+                                        <span class="code-green">"Laravel Developer";</span>
+                                    </div>
+
+                                    <div class="code-indent">
+                                        <span class="code-purple">public</span>
+                                        <span class="code-blue">$skills</span>
+                                        <span class="code-white">=</span>
+                                    </div>
+
+                                    <div class="code-indent-2">
+                                        <span class="code-white">[</span>
+                                    </div>
+
+                                    <div class="code-indent-3">
+                                        <span class="code-green">"Laravel",</span>
+                                    </div>
+
+                                    <div class="code-indent-3">
+                                        <span class="code-green">"PHP",</span>
+                                    </div>
+
+                                    <div class="code-indent-3">
+                                        <span class="code-green">"WordPress",</span>
+                                    </div>
+
+                                    <div class="code-indent-3">
+                                        <span class="code-green">"eCommerce"</span>
+                                    </div>
+
+                                    <div class="code-indent-2">
+                                        <span class="code-white">];</span>
+                                    </div>
+
+                                    <div>
+                                        <span class="code-white">}</span>
+                                    </div>
+
+                                    <br>
+
+                                    <div>
+                                        <span class="code-purple">echo</span>
+                                        <span class="code-green">"Let's build something great!";</span>
+                                    </div>
+
+                                    <div class="cursor-line">
+                                        <span class="cursor"></span>
+                                    </div>
                                 </div>
 
-                                <br>
-
-                                <div>
-                                    <span class="code-purple">
-                                        class
-                                    </span>
-
-                                    <span class="code-blue">
-                                        Developer
-                                    </span>
-
-                                    <span class="code-white">
-                                        {
-                                    </span>
-                                </div>
-
-
-                                <div class="code-indent">
-
-                                    <span class="code-purple">
-                                        public
-                                    </span>
-
-                                    <span class="code-blue">
-                                        $name
-                                    </span>
-
-                                    <span class="code-white">
-                                        =
-                                    </span>
-
-                                    <span class="code-green">
-                                        "Tanvir Rahman";
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent">
-
-                                    <span class="code-purple">
-                                        public
-                                    </span>
-
-                                    <span class="code-blue">
-                                        $role
-                                    </span>
-
-                                    <span class="code-white">
-                                        =
-                                    </span>
-
-                                    <span class="code-green">
-                                        "Laravel Developer";
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent">
-
-                                    <span class="code-purple">
-                                        public
-                                    </span>
-
-                                    <span class="code-blue">
-                                        $skills
-                                    </span>
-
-                                    <span class="code-white">
-                                        =
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent-2">
-
-                                    <span class="code-white">
-                                        [
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent-3">
-
-                                    <span class="code-green">
-                                        "Laravel",
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent-3">
-
-                                    <span class="code-green">
-                                        "PHP",
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent-3">
-
-                                    <span class="code-green">
-                                        "WordPress",
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent-3">
-
-                                    <span class="code-green">
-                                        "eCommerce"
-                                    </span>
-
-                                </div>
-
-
-                                <div class="code-indent-2">
-
-                                    <span class="code-white">
-                                        ];
-                                    </span>
-
-                                </div>
-
-
-                                <div>
-
-                                    <span class="code-white">
-                                        }
-                                    </span>
-
-                                </div>
-
-
-                                <br>
-
-
-                                <div>
-
-                                    <span class="code-purple">
-                                        echo
-                                    </span>
-
-                                    <span class="code-green">
-                                        "Let's build something great!";
-                                    </span>
-
-                                </div>
-
-                                <div class="cursor-line">
-                                    <span class="cursor"></span>
+                                <!-- Your Photo -->
+                                <div class="hero-code-photo">
+                                    <img src="{{ asset('assets/images/portfolio2.jpeg') }}" alt="Md. Tanvir Rahman">
                                 </div>
 
                             </div>
@@ -2489,77 +2401,77 @@ CONTACT SECTION
     </section>
 
 
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-<script>
-    emailjs.init({
-        publicKey: "lst3xeVXNLIMPlvA-"
-    });
+    <script>
+        emailjs.init({
+            publicKey: "lst3xeVXNLIMPlvA-"
+        });
 
-    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
 
-        event.preventDefault();
+            event.preventDefault();
 
-        const form = this;
-        const button = form.querySelector("button[type='submit']");
-        const originalText = button.innerHTML;
+            const form = this;
+            const button = form.querySelector("button[type='submit']");
+            const originalText = button.innerHTML;
 
-        button.disabled = true;
-        button.innerHTML =
-            'Sending... <i class="fa-solid fa-spinner fa-spin ms-2"></i>';
+            button.disabled = true;
+            button.innerHTML =
+                'Sending... <i class="fa-solid fa-spinner fa-spin ms-2"></i>';
 
-        emailjs.sendForm(
-            "service_z0qbkzr",
-            "template_q8oedc8",
-            form
-        )
-        .then(function() {
+            emailjs.sendForm(
+                    "service_z0qbkzr",
+                    "template_q8oedc8",
+                    form
+                )
+                .then(function() {
 
-            showNotification(
-                "success",
-                "Message Sent!",
-                "Thank you! Your message has been sent successfully."
-            );
+                    showNotification(
+                        "success",
+                        "Message Sent!",
+                        "Thank you! Your message has been sent successfully."
+                    );
 
-            form.reset();
+                    form.reset();
 
-            button.disabled = false;
-            button.innerHTML = originalText;
+                    button.disabled = false;
+                    button.innerHTML = originalText;
 
-        })
-        .catch(function(error) {
+                })
+                .catch(function(error) {
 
-            console.error("EmailJS Error:", error);
+                    console.error("EmailJS Error:", error);
 
-            showNotification(
-                "error",
-                "Something Went Wrong",
-                "Your message could not be sent. Please try again."
-            );
+                    showNotification(
+                        "error",
+                        "Something Went Wrong",
+                        "Your message could not be sent. Please try again."
+                    );
 
-            button.disabled = false;
-            button.innerHTML = originalText;
+                    button.disabled = false;
+                    button.innerHTML = originalText;
+
+                });
 
         });
 
-    });
 
+        function showNotification(type, title, message) {
 
-    function showNotification(type, title, message) {
+            const oldNotification = document.querySelector(".contact-notification");
 
-        const oldNotification = document.querySelector(".contact-notification");
+            if (oldNotification) {
+                oldNotification.remove();
+            }
 
-        if (oldNotification) {
-            oldNotification.remove();
-        }
+            const notification = document.createElement("div");
 
-        const notification = document.createElement("div");
+            notification.className = "contact-notification " + type;
 
-        notification.className = "contact-notification " + type;
-
-        notification.innerHTML = `
+            notification.innerHTML = `
             <div class="notification-icon">
                 ${
                     type === "success"
@@ -2578,38 +2490,38 @@ CONTACT SECTION
             </button>
         `;
 
-        document.body.appendChild(notification);
-
-        setTimeout(() => {
-            notification.classList.add("show");
-        }, 50);
-
-        const closeButton =
-            notification.querySelector(".notification-close");
-
-        closeButton.addEventListener("click", () => {
-            notification.classList.remove("show");
+            document.body.appendChild(notification);
 
             setTimeout(() => {
-                notification.remove();
-            }, 300);
-        });
+                notification.classList.add("show");
+            }, 50);
 
-        setTimeout(() => {
+            const closeButton =
+                notification.querySelector(".notification-close");
 
-            if (notification.parentElement) {
-
+            closeButton.addEventListener("click", () => {
                 notification.classList.remove("show");
 
                 setTimeout(() => {
                     notification.remove();
                 }, 300);
+            });
 
-            }
+            setTimeout(() => {
 
-        }, 5000);
-    }
-</script>
+                if (notification.parentElement) {
+
+                    notification.classList.remove("show");
+
+                    setTimeout(() => {
+                        notification.remove();
+                    }, 300);
+
+                }
+
+            }, 5000);
+        }
+    </script>
 
 
 
